@@ -1,0 +1,98 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(#EECDA3, #DA6F9D);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.timer-container {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 350px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .75);
+    border-radius: 45px;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.todo-container {
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border: 2px solid rgba(255, 255, 255, .75);
+    border-radius: 25px;
+    margin-top: -130px;
+    padding: 20px 20px 40px 20px;
+    text-align: left;
+    font-family: "Noto Sans Italic", sans-serif;
+    color: #C8C8C8;
+}
+
+ul {
+    color: #DAFFEF;
+    margin: 15px 20px 0 0;
+    font-weight: bold;
+}
+
+ul li {
+    display: inline;
+    margin: 0 15px 0 0;
+}
+
+#time {
+    color: #FFFFFF;
+    font-size: 140px;
+    font-weight: 600;
+    font-family: "Noto Rashi Hebrew", sans-serif;
+}
+
+span {
+    padding: -20px;
+    margin: -20px;
+}
+
+/* temporary! this color indicates the timer chosen:
+pomodoro, 5 min break or 15 min break */ 
+#pomodoro {
+    color: #729E96;
+}
+
+
+.button-container {
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .75);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#button {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 50px solid #FFFFFF;
+    margin: 20px -10px 0 0;
+    z-index: 1;
+    left: 10px;
+  }
+  
