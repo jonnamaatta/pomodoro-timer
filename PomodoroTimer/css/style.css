@@ -45,15 +45,13 @@ body {
     color: #C8C8C8;
 }
 
-ul {
-    color: #DAFFEF;
-    margin: 15px 20px 0 0;
-    font-weight: bold;
-}
-
-ul li {
+.durations button {
     display: inline;
-    margin: 0 15px 0 0;
+    border: none;
+    background: none;
+    color: #DAFFEF;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 #time {
@@ -63,7 +61,7 @@ ul li {
     font-family: "Noto Rashi Hebrew", sans-serif;
 }
 
-span {
+#time span {
     padding: -20px;
     margin: -20px;
 }
@@ -75,23 +73,21 @@ pomodoro, 5 min break or 15 min break */
 }
 
 .button-container {
+    margin-top: 10px;
     height: 100px;
     width: 100px;
     background-color: transparent;
     border: 2px solid rgba(255, 255, 255, .75);
     border-radius: 50%;
     display: inline-block;
+    text-align: center;
 }
 
-#button {
-    display: inline-block;
-    width: 0;
-    height: 0;
-    border-top: 30px solid transparent;
-    border-bottom: 30px solid transparent;
-    border-left: 50px solid #FFFFFF;
-    margin: 20px -10px 0 0;
-    z-index: 1;
-    left: 10px;
-  }
+#startstop {
+    border: none;
+    background: none;
+    margin-top: 35px;   
+    color: #FFFFFF;  
+    font-size: 20px;
+}
   
